@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Error</title>
+    <style>
+      body {
+        color: var(--text-color);
+        background-color: var(--body-color);
+        font-family: var(--main-font), Arial;
+        font-weight: var(--font-regular);
+      }
+      main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+      }
+      h1 {
+        font-weight: var(--font-bold);
+      }
+
+      .err {
+        background-color: black;
+        text-align: center;
+      }
+      .pos1 {
+        margin-top: 13rem;
+      }
+      .pos2 {
+        margin-top: 1rem;
+      }
+    </style>
+  </head>
+  <body style="background-color: black">
+    <h1 class="err pos1">404</h1>
+    <h2 class="err pos2">Link Broken. Vercel couldn't host this app</h2>
+    <a
+      class="err"
+      style="text-decoration: none; color: #263238"
+      href="https://short-wzjj.onrender.com/"
+      ><h2>Use This Link</h2></a
+    >
+  </body>
+</html>
