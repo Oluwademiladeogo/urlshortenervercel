@@ -1,0 +1,2 @@
+# urlshortenervercel
+redirect for vercel
